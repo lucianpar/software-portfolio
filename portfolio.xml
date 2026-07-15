@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="26.04.0">
+<page number="1" position="absolute" top="0" left="0" height="1188" width="918">
+	<fontspec id="0" size="17" family="AAAAAA+ArialMT" color="#000000"/>
+	<fontspec id="1" size="30" family="AAAAAA+ArialMT" color="#000000"/>
+	<fontspec id="2" size="17" family="AAAAAA+ArialMT" color="#1154cc"/>
+	<fontspec id="3" size="21" family="AAAAAA+ArialMT" color="#424242"/>
+<text top="109" left="108" width="706" height="18" font="0">Lucian  Parisi  develops  software  for  spatial  audio,  on-device  inference,  and  interactive  media. </text>
+<text top="130" left="108" width="706" height="18" font="0">His  experience  spans industry engineering, open-source development, immersive installations, </text>
+<text top="152" left="108" width="316" height="18" font="0">audio engineering and academic research. </text>
+<text top="174" left="108" width="5" height="18" font="0"> </text>
+<text top="196" left="108" width="291" height="18" font="0">Résumé · GitHub · Multimedia Portfolio </text>
+<text top="218" left="108" width="5" height="18" font="0"> </text>
+<text top="239" left="108" width="706" height="18" font="0">Currently  developing  secure,  on-device  speech  systems  at  Qualcomm; previously built spatial </text>
+<text top="261" left="108" width="601" height="18" font="0">audio and immersive graphics infrastructure with the AlloSphere Research Group. </text>
+<text top="314" left="108" width="370" height="34" font="1">Open Source Spatial Audio </text>
+<text top="362" left="108" width="124" height="18" font="0">CULT DSP is an<a href="https://github.com/Cult-DSP"> </a></text>
+<text top="362" left="232" width="92" height="18" font="2"><a href="https://github.com/Cult-DSP">open-source</a></text>
+<text top="362" left="324" width="449" height="18" font="0"><a href="https://github.com/Cult-DSP"> </a>spatial audio ecosystem designed to make immersive media </text>
+<text top="384" left="108" width="617" height="18" font="0">more portable across formats, software environments, and loudspeaker systems. Its </text>
+<text top="405" left="108" width="670" height="18" font="0">interconnected tools support the full workflow from transcoding and scene representation to </text>
+<text top="427" left="108" width="697" height="18" font="0">authoring, integration, and playback. The toolchain and its applications have been presented at </text>
+<text top="449" left="108" width="28" height="18" font="0">the </text>
+<text top="449" left="136" width="176" height="18" font="2"><a href="https://lac2026.sciencesconf.org/723182/document">Linux Audio Conference</a></text>
+<text top="449" left="311" width="274" height="18" font="0"> and the Audio Engineering Society’s<a href="https://aes.org/publications/elibrary-page/?id=23337"> </a></text>
+<text top="449" left="585" width="206" height="18" font="2"><a href="https://aes.org/publications/elibrary-page/?id=23337">immersive audio conference</a></text>
+<text top="449" left="791" width="9" height="18" font="0">. </text>
+<text top="495" left="108" width="126" height="23" font="3">Spatial Root  </text>
+<text top="529" left="108" width="686" height="18" font="0">A C++ spatial audio engine for real-time and offline playback of Atmos/ADM-based immersive </text>
+<text top="550" left="108" width="386" height="18" font="0">audio on arbitrary multichannel loudspeaker layouts. </text>
+<text top="596" left="108" width="68" height="23" font="3">LUSID </text>
+<text top="630" left="108" width="674" height="18" font="0">A lightweight JSON scene format for representing moving audio objects, speaker beds, LFE </text>
+<text top="652" left="108" width="515" height="18" font="0">content, and time-varying metadata across spatial-media applications. </text>
+<text top="698" left="108" width="176" height="23" font="3">CULT Transcoder  </text>
+<text top="731" left="108" width="656" height="18" font="0">A C++ tool that converts Atmos/ADM and BW64 audio into LUSID scenes and can author </text>
+<text top="753" left="108" width="409" height="18" font="0">LUSID packages back into ADM-compatible audio files. </text>
+<text top="799" left="108" width="125" height="23" font="3">Spatial Seed </text>
+<text top="833" left="108" width="664" height="18" font="0">An early-development procedural authoring system that uses music information retrieval to </text>
+<text top="855" left="108" width="522" height="18" font="0">generate object placement and movement for immersive audio scenes. </text>
+<text top="901" left="108" width="255" height="23" font="3">Implementation Prototypes </text>
+<text top="934" left="108" width="683" height="18" font="0">A collection of experimental hosts and integrations that demonstrate the CULT DSP toolchain </text>
+<text top="956" left="108" width="562" height="18" font="0">across AlloLib, Unreal Engine, web, and networked spatial-media workflows. </text>
+<text top="978" left="108" width="5" height="18" font="0"> </text>
+<text top="1000" left="108" width="5" height="18" font="0"> </text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="1188" width="918">
+<image top="169" left="110" width="257" height="385" src="portfolio-2_1.png"/>
+<text top="109" left="108" width="242" height="34" font="1">Selected Projects </text>
+<text top="172" left="108" width="649" height="23" font="3">A Framework &amp; Toolkit for Live Music Performance in the AlloSphere  </text>
+<text top="206" left="108" width="665" height="18" font="0">A performance toolkit combining real-time object-based audio spatialization, audio-reactive </text>
+<text top="228" left="108" width="545" height="18" font="0">graphics, and streamlined asset importing for live music in the AlloSphere.<a href="https://aes.org/publications/elibrary-page/?id=23072"> </a></text>
+<text top="228" left="653" width="72" height="18" font="2"><a href="https://aes.org/publications/elibrary-page/?id=23072">Published</a></text>
+<text top="228" left="726" width="66" height="18" font="0"><a href="https://aes.org/publications/elibrary-page/?id=23072"> </a>for AES </text>
+<text top="250" left="108" width="50" height="18" font="0">2025.  </text>
+<text top="490" left="369" width="5" height="18" font="0"> </text>
+<text top="536" left="108" width="234" height="23" font="3">ML Corpus Resynthesis  </text>
+<text top="570" left="108" width="639" height="18" font="0">A Python system that clusters an audio corpus and uses time-windowed support vector </text>
+<text top="591" left="108" width="386" height="18" font="0">regression to predict and resynthesize new material. </text>
+<text top="637" left="282" width="6" height="23" font="3"> </text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="1188" width="918">
+<image top="188" left="110" width="512" height="286" src="portfolio-3_1.png"/>
+<image top="633" left="-40" width="702" height="440" src="portfolio-3_2.png"/>
+<text top="109" left="108" width="246" height="23" font="3">Spectral Graphic Notation </text>
+<text top="142" left="108" width="648" height="18" font="0">A Python and Processing tool that converts FFT analysis of audio files into automatically </text>
+<text top="164" left="108" width="319" height="18" font="0">generated abstract graphic musical scores. </text>
+<text top="458" left="624" width="5" height="18" font="0"> </text>
+<text top="504" left="108" width="303" height="23" font="3">Image Sonification in Max/MSP  </text>
+<text top="538" left="108" width="676" height="18" font="0">A Max/MSP experiment that maps visual image data to synthesizer and granular-processing </text>
+<text top="560" left="108" width="230" height="18" font="0">parameters to generate sound. </text>
+<text top="606" left="108" width="294" height="23" font="3">Algorithmic VBAP in MaX/MSP </text>
+<text top="639" left="108" width="664" height="18" font="0">A Max/MSP and Jitter prototype that uses iterative trajectories and vector-based amplitude </text>
+<text top="661" left="108" width="403" height="18" font="0">panning to move sound objects through a cubic space. </text>
+<text top="973" left="528" width="5" height="18" font="0"> </text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="1188" width="918">
+<text top="109" left="108" width="401" height="23" font="3">Generative Surfline Radio in SuperCollider </text>
+<text top="142" left="108" width="706" height="18" font="0">A  generative  SuperCollider  radio  that  transforms  live  Surfline  data,  accessed through Python, </text>
+<text top="164" left="108" width="278" height="18" font="0">into endlessly varying ambient music. </text>
+<text top="216" left="108" width="257" height="34" font="1">Related Research  </text>
+<text top="265" left="108" width="217" height="18" font="2"><a href="https://youtu.be/un6PZLheUiE?si=Ae1bYz5LsAROUgeY">Linux Audio Conference 2026</a></text>
+<text top="265" left="325" width="5" height="18" font="0"> </text>
+<text top="286" left="108" width="139" height="18" font="2"><a href="https://aes.org/publications/elibrary-page/?id=23337">AES AVARIG 2026</a></text>
+<text top="286" left="247" width="5" height="18" font="0"><a href="https://aes.org/publications/elibrary-page/?id=23337"> </a></text>
+<text top="308" left="108" width="74" height="18" font="2"><a href="https://aes.org/publications/elibrary-page/?id=23072">AES 2025</a></text>
+<text top="308" left="182" width="5" height="18" font="0"> </text>
+<text top="361" left="108" width="112" height="34" font="1">Contact </text>
+<text top="409" left="108" width="174" height="18" font="2"><a href="mailto:lucianparisi@gmail.com">lucianparisi@gmail.com</a></text>
+<text top="409" left="282" width="5" height="18" font="0"> </text>
+<text top="431" left="108" width="5" height="18" font="0"> </text>
+<text top="452" left="108" width="5" height="18" font="0"> </text>
+<text top="474" left="108" width="5" height="18" font="0"> </text>
+</page>
+<outline>
+<item page="1">Open Source Spatial Audio </item>
+<outline>
+<item page="1">Spatial Root  </item>
+<item page="1">LUSID </item>
+<item page="1">CULT Transcoder  </item>
+<item page="1">Spatial Seed </item>
+<item page="1">Implementation Prototypes </item>
+</outline>
+<item page="2">Selected Projects </item>
+<outline>
+<item page="2">A Framework &amp; Toolkit for Live Music Performance in the AlloSphere  </item>
+<item page="2">ML Corpus Resynthesis  </item>
+<item page="2"> </item>
+<item page="3">Spectral Graphic Notation </item>
+<item page="3">Image Sonification in Max/MSP  </item>
+<item page="3">Algorithmic VBAP in MaX/MSP </item>
+<item page="4">Generative Surfline Radio in SuperCollider </item>
+</outline>
+<item page="4">Related Research  </item>
+<item page="4">Contact </item>
+</outline>
+</pdf2xml>
