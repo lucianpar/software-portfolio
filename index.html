@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software | Lucian Parisi</title>
+    <meta
+      name="description"
+      content="Lucian Parisi develops software for spatial audio, on-device inference, and interactive media across open-source tooling, immersive systems, and research."
+    >
+    <meta property="og:title" content="Software | Lucian Parisi">
+    <meta
+      property="og:description"
+      content="Software portfolio for Lucian Parisi focused on spatial audio, on-device ML, and interactive media."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/software/">
+    <link rel="canonical" href="https://example.com/software/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Replace the placeholder URLs below with Lucian's live destinations. -->
+    <main id="main" class="site-shell">
+      <section class="intro section" id="top">
+        <div class="text-column">
+          <p class="eyebrow">Software</p>
+          <h1 class="intro-copy">
+            Lucian Parisi develops software for spatial audio, on-device inference, and interactive media. His experience spans industry engineering, open-source development, immersive installations, audio engineering, and academic research.
+          </h1>
+          <nav class="inline-nav" aria-label="Primary">
+            <a href="https://example.com/resume.pdf">Resume</a>
+            <a href="https://github.com/example">GitHub</a>
+            <a href="https://example.com/">Multimedia Portfolio</a>
+          </nav>
+          <p class="supporting-copy">
+            Currently developing secure, on-device speech systems at Qualcomm; previously built spatial audio and immersive graphics infrastructure with the AlloSphere Research Group.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="open-source-spatial-audio" aria-labelledby="open-source-title">
+        <div class="section-heading">
+          <p class="eyebrow">01</p>
+          <h2 id="open-source-title">Open Source Spatial Audio</h2>
+        </div>
+        <div class="section-body split-layout">
+          <div class="text-column">
+            <p class="lede">
+              CULT DSP is an open-source spatial audio ecosystem designed to make immersive media more portable across formats, software environments, and loudspeaker systems. Its interconnected tools support the full workflow from transcoding and scene representation to authoring, integration, and playback. The toolchain and its applications have been presented at the Linux Audio Conference and the Audio Engineering Society’s immersive audio conference.
+            </p>
+          </div>
+          <div class="tool-list" role="list" aria-label="CULT DSP projects">
+            <article class="tool-item" role="listitem">
+              <h3>Spatial Root</h3>
+              <p>
+                A C++ spatial audio engine for real-time and offline playback of Atmos/ADM-based immersive audio on arbitrary multichannel loudspeaker layouts.
+              </p>
+            </article>
+            <article class="tool-item" role="listitem">
+              <h3>LUSID</h3>
+              <p>
+                A lightweight JSON scene format for representing moving audio objects, speaker beds, LFE content, and time-varying metadata across spatial-media applications.
+              </p>
+            </article>
+            <article class="tool-item" role="listitem">
+              <h3>CULT Transcoder</h3>
+              <p>
+                A C++ tool that converts Atmos/ADM and BW64 audio into LUSID scenes and can author LUSID packages back into ADM-compatible audio files.
+              </p>
+            </article>
+            <article class="tool-item" role="listitem">
+              <h3>Spatial Seed</h3>
+              <p>
+                An early-development procedural authoring system that uses music information retrieval to generate object placement and movement for immersive audio scenes.
+              </p>
+            </article>
+            <article class="tool-item" role="listitem">
+              <h3>Implementation Prototypes</h3>
+              <p>
+                A collection of experimental hosts and integrations that demonstrate the CULT DSP toolchain across AlloLib, Unreal Engine, web, and networked spatial-media workflows.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="selected-projects" aria-labelledby="selected-projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">02</p>
+          <h2 id="selected-projects-title">Selected Projects</h2>
+        </div>
+        <div class="projects-list">
+          <article class="project project-feature">
+            <div class="project-copy text-column">
+              <h3>A Framework &amp; Toolkit for Live Music Performance in the AlloSphere</h3>
+              <p>
+                A performance toolkit combining real-time object-based audio spatialization, audio-reactive graphics, and streamlined asset importing for live music in the AlloSphere. Presented at AES 2025.
+              </p>
+            </div>
+            <figure class="project-media project-media-wide">
+              <img
+                src="assets/allosphere-performance.png"
+                alt="Crowd gathered inside the AlloSphere beneath immersive projected visuals."
+                loading="lazy"
+                width="1365"
+                height="2048"
+              >
+            </figure>
+          </article>
+
+          <article class="project project-compact">
+            <div class="project-copy text-column">
+              <h3>ML Corpus Resynthesis</h3>
+              <p>
+                A Python system that clusters an audio corpus and uses time-windowed support vector regression to predict and resynthesize new material.
+              </p>
+            </div>
+          </article>
+
+          <article class="project project-feature project-feature-reverse">
+            <figure class="project-media">
+              <img
+                src="assets/spectral-graphic-notation.png"
+                alt="Abstract graphic score generated from spectral analysis with soft pink and green linear textures."
+                loading="lazy"
+                width="2048"
+                height="1147"
+              >
+            </figure>
+            <div class="project-copy text-column">
+              <h3>Spectral Graphic Notation</h3>
+              <p>
+                A Python and Processing tool that converts FFT analysis of audio files into automatically generated abstract graphic musical scores.
+              </p>
+            </div>
+          </article>
+
+          <article class="project project-compact">
+            <div class="project-copy text-column">
+              <h3>Image Sonification in Max/MSP</h3>
+              <p>
+                A Max/MSP experiment that maps visual image data to synthesizer and granular-processing parameters to generate sound.
+              </p>
+            </div>
+          </article>
+
+          <article class="project project-feature">
+            <div class="project-copy text-column">
+              <h3>Algorithmic VBAP in Max/MSP</h3>
+              <p>
+                A Max/MSP and Jitter prototype that uses iterative trajectories and vector-based amplitude panning to move sound objects through a cubic space.
+              </p>
+            </div>
+            <figure class="project-media project-media-dark">
+              <img
+                src="assets/algorithmic-vbap.png"
+                alt="Wireframe cube visualization showing sound objects distributed through a three-dimensional space."
+                loading="lazy"
+                width="2048"
+                height="1280"
+              >
+            </figure>
+          </article>
+
+          <article class="project project-compact">
+            <div class="project-copy text-column">
+              <h3>Generative Surfline Radio in SuperCollider</h3>
+              <p>
+                A generative SuperCollider radio that transforms live Surfline data, accessed through Python, into endlessly varying ambient music.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="related-research" aria-labelledby="related-research-title">
+        <div class="section-heading">
+          <p class="eyebrow">03</p>
+          <h2 id="related-research-title">Related Research</h2>
+        </div>
+        <ul class="research-list">
+          <li><a href="https://example.com/lac-2026">Linux Audio Conference 2026</a></li>
+          <li><a href="https://example.com/aes-avarig-2026">AES AVARIG 2026</a></li>
+          <li><a href="https://example.com/aes-2025">AES 2025</a></li>
+        </ul>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">04</p>
+          <h2 id="contact-title">Contact</h2>
+        </div>
+        <p class="contact-link">
+          <a href="mailto:lucianparisi@gmail.com">lucianparisi@gmail.com</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
