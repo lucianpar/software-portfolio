@@ -112,6 +112,11 @@ h3 {
   line-height: 1.22;
 }
 
+.intro {
+  display: grid;
+  gap: 2.5rem;
+}
+
 .inline-nav {
   display: flex;
   flex-wrap: wrap;
@@ -138,6 +143,27 @@ h3 {
 .lede,
 .contact-link {
   margin: 0;
+}
+
+.scroll-cue {
+  display: inline-grid;
+  gap: 0.2rem;
+  width: fit-content;
+  margin-top: 0.25rem;
+  color: var(--muted);
+}
+
+.scroll-cue span {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+}
+
+.scroll-cue:hover,
+.scroll-cue:focus-visible {
+  color: var(--text);
 }
 
 .section-heading {
